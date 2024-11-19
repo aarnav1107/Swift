@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AB295B312CEC5FBC00111B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB295B122CEC5FB900111B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB295B192CEC5FB900111B5D;
+			remoteInfo = SaavnMusicTwo;
+		};
+		AB295B3B2CEC5FBC00111B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB295B122CEC5FB900111B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB295B192CEC5FB900111B5D;
+			remoteInfo = SaavnMusicTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB295B1A2CEC5FB900111B5D /* SaavnMusicTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaavnMusicTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB295B302CEC5FBC00111B5D /* SaavnMusicTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaavnMusicTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB295B3A2CEC5FBC00111B5D /* SaavnMusicTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaavnMusicTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AB295B422CEC5FBC00111B5D /* Exceptions for "SaavnMusicTwo" folder in "SaavnMusicTwo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.swift,
+				Info.plist,
+			);
+			target = AB295B192CEC5FB900111B5D /* SaavnMusicTwo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		AB295B502CEC603900111B5D /* Exceptions for "SaavnMusicTwo" folder in "Compile Sources" phase from "SaavnMusicTwo" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = AB295B162CEC5FB900111B5D /* Sources */;
+			membershipExceptions = (
+				.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AB295B1C2CEC5FB900111B5D /* SaavnMusicTwo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AB295B422CEC5FBC00111B5D /* Exceptions for "SaavnMusicTwo" folder in "SaavnMusicTwo" target */,
+				AB295B502CEC603900111B5D /* Exceptions for "SaavnMusicTwo" folder in "Compile Sources" phase from "SaavnMusicTwo" target */,
+			);
+			path = SaavnMusicTwo;
+			sourceTree = "<group>";
+		};
+		AB295B332CEC5FBC00111B5D /* SaavnMusicTwoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SaavnMusicTwoTests;
+			sourceTree = "<group>";
+		};
+		AB295B3D2CEC5FBC00111B5D /* SaavnMusicTwoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SaavnMusicTwoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB295B172CEC5FB900111B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB295B2D2CEC5FBC00111B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB295B372CEC5FBC00111B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB295B112CEC5FB900111B5D = {
+			isa = PBXGroup;
+			children = (
+				AB295B1C2CEC5FB900111B5D /* SaavnMusicTwo */,
+				AB295B332CEC5FBC00111B5D /* SaavnMusicTwoTests */,
+				AB295B3D2CEC5FBC00111B5D /* SaavnMusicTwoUITests */,
+				AB295B1B2CEC5FB900111B5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB295B1B2CEC5FB900111B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB295B1A2CEC5FB900111B5D /* SaavnMusicTwo.app */,
+				AB295B302CEC5FBC00111B5D /* SaavnMusicTwoTests.xctest */,
+				AB295B3A2CEC5FBC00111B5D /* SaavnMusicTwoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB295B192CEC5FB900111B5D /* SaavnMusicTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB295B432CEC5FBC00111B5D /* Build configuration list for PBXNativeTarget "SaavnMusicTwo" */;
+			buildPhases = (
+				AB295B162CEC5FB900111B5D /* Sources */,
+				AB295B172CEC5FB900111B5D /* Frameworks */,
+				AB295B182CEC5FB900111B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AB295B1C2CEC5FB900111B5D /* SaavnMusicTwo */,
+			);
+			name = SaavnMusicTwo;
+			packageProductDependencies = (
+			);
+			productName = SaavnMusicTwo;
+			productReference = AB295B1A2CEC5FB900111B5D /* SaavnMusicTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB295B2F2CEC5FBC00111B5D /* SaavnMusicTwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB295B482CEC5FBC00111B5D /* Build configuration list for PBXNativeTarget "SaavnMusicTwoTests" */;
+			buildPhases = (
+				AB295B2C2CEC5FBC00111B5D /* Sources */,
+				AB295B2D2CEC5FBC00111B5D /* Frameworks */,
+				AB295B2E2CEC5FBC00111B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB295B322CEC5FBC00111B5D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB295B332CEC5FBC00111B5D /* SaavnMusicTwoTests */,
+			);
+			name = SaavnMusicTwoTests;
+			packageProductDependencies = (
+			);
+			productName = SaavnMusicTwoTests;
+			productReference = AB295B302CEC5FBC00111B5D /* SaavnMusicTwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB295B392CEC5FBC00111B5D /* SaavnMusicTwoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB295B4B2CEC5FBC00111B5D /* Build configuration list for PBXNativeTarget "SaavnMusicTwoUITests" */;
+			buildPhases = (
+				AB295B362CEC5FBC00111B5D /* Sources */,
+				AB295B372CEC5FBC00111B5D /* Frameworks */,
+				AB295B382CEC5FBC00111B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB295B3C2CEC5FBC00111B5D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB295B3D2CEC5FBC00111B5D /* SaavnMusicTwoUITests */,
+			);
+			name = SaavnMusicTwoUITests;
+			packageProductDependencies = (
+			);
+			productName = SaavnMusicTwoUITests;
+			productReference = AB295B3A2CEC5FBC00111B5D /* SaavnMusicTwoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB295B122CEC5FB900111B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					AB295B192CEC5FB900111B5D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					AB295B2F2CEC5FBC00111B5D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AB295B192CEC5FB900111B5D;
+					};
+					AB295B392CEC5FBC00111B5D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = AB295B192CEC5FB900111B5D;
+					};
+				};
+			};
+			buildConfigurationList = AB295B152CEC5FB900111B5D /* Build configuration list for PBXProject "SaavnMusicTwo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB295B112CEC5FB900111B5D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AB295B1B2CEC5FB900111B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB295B192CEC5FB900111B5D /* SaavnMusicTwo */,
+				AB295B2F2CEC5FBC00111B5D /* SaavnMusicTwoTests */,
+				AB295B392CEC5FBC00111B5D /* SaavnMusicTwoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB295B182CEC5FB900111B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB295B2E2CEC5FBC00111B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB295B382CEC5FBC00111B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB295B162CEC5FB900111B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB295B2C2CEC5FBC00111B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB295B362CEC5FBC00111B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB295B322CEC5FBC00111B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB295B192CEC5FB900111B5D /* SaavnMusicTwo */;
+			targetProxy = AB295B312CEC5FBC00111B5D /* PBXContainerItemProxy */;
+		};
+		AB295B3C2CEC5FBC00111B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB295B192CEC5FB900111B5D /* SaavnMusicTwo */;
+			targetProxy = AB295B3B2CEC5FBC00111B5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB295B442CEC5FBC00111B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWJU2V9326;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaavnMusicTwo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aarnav.SaavnMusicTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB295B452CEC5FBC00111B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWJU2V9326;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaavnMusicTwo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aarnav.SaavnMusicTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB295B462CEC5FBC00111B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB295B472CEC5FBC00111B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB295B492CEC5FBC00111B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWJU2V9326;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aarnav.SaavnMusicTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaavnMusicTwo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaavnMusicTwo";
+			};
+			name = Debug;
+		};
+		AB295B4A2CEC5FBC00111B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWJU2V9326;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aarnav.SaavnMusicTwoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaavnMusicTwo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaavnMusicTwo";
+			};
+			name = Release;
+		};
+		AB295B4C2CEC5FBC00111B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWJU2V9326;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aarnav.SaavnMusicTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaavnMusicTwo;
+			};
+			name = Debug;
+		};
+		AB295B4D2CEC5FBC00111B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWJU2V9326;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aarnav.SaavnMusicTwoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaavnMusicTwo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB295B152CEC5FB900111B5D /* Build configuration list for PBXProject "SaavnMusicTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB295B462CEC5FBC00111B5D /* Debug */,
+				AB295B472CEC5FBC00111B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB295B432CEC5FBC00111B5D /* Build configuration list for PBXNativeTarget "SaavnMusicTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB295B442CEC5FBC00111B5D /* Debug */,
+				AB295B452CEC5FBC00111B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB295B482CEC5FBC00111B5D /* Build configuration list for PBXNativeTarget "SaavnMusicTwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB295B492CEC5FBC00111B5D /* Debug */,
+				AB295B4A2CEC5FBC00111B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB295B4B2CEC5FBC00111B5D /* Build configuration list for PBXNativeTarget "SaavnMusicTwoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB295B4C2CEC5FBC00111B5D /* Debug */,
+				AB295B4D2CEC5FBC00111B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB295B122CEC5FB900111B5D /* Project object */;
+}
